@@ -11,6 +11,4 @@ you want to map send-pr fields to Bugzilla fields.
 
 To make it process emails sent to a given email address, stick it into /etc/mail/aliases like this:
 
-'''
-freebsd-gnats-submit:   "|/path/to/send_pr_to_bugzilla.py"
-'''
+    freebsd-gnats-submit:   "|/path/to/send_pr_to_bugzilla.py"
